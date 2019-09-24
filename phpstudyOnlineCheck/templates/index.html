@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta about="By CoolCat">
+<head>
+    <meta charset="UTF-8">
+    <title>phpstudyCheck</title>
+</head>
+<body>
+<form action="{{ url_for('index') }}" method="POST">
+    Target: <input type="text" name="vurl"><br>
+    <input type="submit" value="Check">
+    status：{{ stat }}
+</form>
+</body>
+</html>
