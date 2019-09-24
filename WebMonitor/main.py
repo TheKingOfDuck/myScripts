@@ -245,7 +245,7 @@ if __name__ == '__main__':
                 # print(url)
                 fuck = bigram(txt[url], data.text) / bigram(txt[url], txt[url])
                 print('[{}]{}'.format(fuck, url))
-                if fuck < 0.95:
+                if fuck < 0.90:
                     sub = '【警告】{}内容发生变化...'.format(url)
                     print(sub)
                     contents = '监测到站点<a href="{}">{}</a>有内容变化，请人工核查是否为合法修改。<br>页面相似度: {}'.format(url, url, fuck)
