@@ -8,4 +8,4 @@ for PrivilegeHelper of CobaltStrike, You must set the file path frist.
 
 
 ![](https://raw.githubusercontent.com/TheKingOfDuck/myScripts/master/ali.jpg)
-![](https://raw.githubusercontent.com/TheKingOfDuck/myScripts/master/ali.jpg)
+![](https://raw.githubusercontent.com/TheKingOfDuck/myScripts/master/wx.jpg)
